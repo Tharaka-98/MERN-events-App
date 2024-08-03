@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { Button } from "../ui/button";
-import NavItems from "../shared/NavItems"
+import NavItems from "../shared/NavItems";
 import MobileNav from "./MobileNav";
 
 const Header = () => {
@@ -31,7 +31,7 @@ const Header = () => {
             <MobileNav />
           </SignedIn>
           <SignedOut>
-            <Button asChild className="rounded-full" size= "lg" >
+            <Button asChild className="rounded-full" size="lg">
               <Link href="/sign-in">Login</Link>
             </Button>
           </SignedOut>

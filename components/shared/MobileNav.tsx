@@ -16,7 +16,7 @@ const MobileNav = () => {
       <Sheet>
         <SheetTrigger className="align-middle">
           <Image
-            src="/assets/images/menu.svg"
+            src="/assets/icons/menu.svg"
             alt="menu"
             width={24}
             height={24}
@@ -28,7 +28,7 @@ const MobileNav = () => {
             src="assets/Images/logo.svg"
             alt="logo"
             width={128}
-            height={38}
+            height={138}
           />
           {/* <Separator className="border border-gray-50" /> */}
           <Separator className="border border-gray-50 " />
